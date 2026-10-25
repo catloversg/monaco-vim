@@ -1,6 +1,6 @@
 {
-  "name": "monaco-vim",
-  "version": "0.4.4",
+  "name": "@catloversg/monaco-vim",
+  "version": "0.0.1",
   "description": "Vim keybindings for monaco-editor",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -41,9 +41,14 @@
   "peerDependencies": {
     "monaco-editor": ">=0.56.0"
   },
-  "homepage": "https://github.com/brijeshb42/monaco-vim",
+  "homepage": "https://github.com/catloversg/monaco-vim",
   "repository": {
-    "url": "https://github.com/brijeshb42/monaco-vim.git"
+    "type": "git",
+    "url": "git+https://github.com/catloversg/monaco-vim.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
